@@ -1,7 +1,7 @@
 import { HeroSection } from "@/components/hero-section"
 import { ProblemSection } from "@/components/problem-section"
 import { SolutionSection } from "@/components/solution-section"
-import { BenefitsSection } from "@/components/benefits-section"
+// import { BenefitsSection } from "@/components/benefits-section" // ⬅️ comentado
 import { HowItWorksSection } from "@/components/how-it-works-section"
 import { UseCasesSection } from "@/components/use-cases-section"
 import { ToolsSection } from "@/components/tools-section"
@@ -13,7 +13,7 @@ export default function LandingPage() {
       <HeroSection />
       <ProblemSection />
       <SolutionSection />
-      <BenefitsSection />
+      {/* <BenefitsSection /> */} {/* ⬅️ comentado */}
       <HowItWorksSection />
       <UseCasesSection />
       <ToolsSection />
